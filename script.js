@@ -18,8 +18,5 @@
         alternativas: ["Alternativa 1", "Alternativa 2"]
     }
  ]    
- const media = [120, 130, 140, 110, 30, 50, 4];
- const calculo = 
- (media[0]+media[1]+media[2]+media[3]+media[4]+media[5])/6;
- console.log("A media foi: "+ calculo)
  
+ let atual = 0;
