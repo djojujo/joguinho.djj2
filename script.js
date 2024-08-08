@@ -7,7 +7,7 @@
  const perguntas = [
     {
         enunciado:" No ambito social",
-        alternativas: ["Alternativa 1", "Alternativa 2"]
+        alternativas: ["voce prefre....", "ou voce prefere..."]
     },
     {
         enunciado:" No ambito social",
