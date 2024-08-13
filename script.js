@@ -7,15 +7,36 @@
  const perguntas = [
     {
         enunciado:" No ambito social voce prefere",
-        alternativas: ["voce prefre....", "ou voce prefere..."]
+        alternativas: [
+            {
+            texto:"alternativa 1",
+            afirmacao: "afirmação 1",
+            },
+            texto:"alternativa 2",
+            afirmacao: "afirmação 2",
+        ]
     },
     {
         enunciado:" No ambito ambiental voce prefere",
-        alternativas: ["Alternativa 1", "Alternativa 2"]
+        alternativas: [
+            {
+            texto:"alternativa 3",
+            afirmacao: "afirmação 3",
+            },
+            texto:"alternativa 4",
+            afirmacao: "afirmação 4",
+        ]
     },
     {
         enunciado:" No ambito tecnológico voce prefere",
-        alternativas: ["Alternativa 1", "Alternativa 2"]
+        alternativas: [
+            {
+            texto:"alternativa 5",
+            afirmacao: "afirmação 5",
+            },
+            texto:"alternativa 6",
+            afirmacao: "afirmação 6",
+        ]
     }
  ]    
  
