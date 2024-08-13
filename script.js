@@ -9,33 +9,39 @@
         enunciado:" No ambito social voce prefere",
         alternativas: [
             {
-            texto:"alternativa 1",
-            afirmacao: "afirmação 1",
+            texto:"Alternativa 1",
+            afirmacao:"Afirmação 1",
             },
-            texto:"alternativa 2",
-            afirmacao: "afirmação 2",
+            {
+            texto:"Alternativa 2",
+            afirmacao:"Afirmação 2",
+            },
         ]
     },
     {
         enunciado:" No ambito ambiental voce prefere",
         alternativas: [
             {
-            texto:"alternativa 3",
-            afirmacao: "afirmação 3",
+            texto:"Alternativa 3",
+            afirmacao:"Afirmação 3",
             },
-            texto:"alternativa 4",
-            afirmacao: "afirmação 4",
+            {
+            texto:"Alternativa 4",
+            afirmacao:"Afirmação 4",
+            },
         ]
     },
     {
         enunciado:" No ambito tecnológico voce prefere",
         alternativas: [
             {
-            texto:"alternativa 5",
-            afirmacao: "afirmação 5",
+            texto:"Alternativa 5",
+            afirmacao:"Afirmação 5",
             },
-            texto:"alternativa 6",
-            afirmacao: "afirmação 6",
+            {
+            texto:"Alternativa 6",
+            afirmacao:"Afirmação 6",
+            },
         ]
     }
  ]    
