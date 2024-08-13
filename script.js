@@ -20,3 +20,8 @@
  ]    
  
  let atual = 0;
+ let perguntaAtual;
+
+ function mostraPerguntas (){
+    perguntaAtual =perguntas[atual];
+ }
