@@ -60,9 +60,12 @@ function mostraAlternativas(){
     for (const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativa = document.createElement("button");
         botaoAlternativa.textContent = alternativa.texto;
-        caixaalternativas.appendChild(botaoAlternativa);
+        botaoAlternativa.addEventListener("click", function{
+            atual++;
+            mostraPerguntas();
+        })
     }
 }
 
- mostraPerguntas();
+caixaalternativas.appendChild(botaoAlternativa);
 
