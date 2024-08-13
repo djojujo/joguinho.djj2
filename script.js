@@ -27,6 +27,13 @@
     caixaperguntas.textContent = perguntaAtual.enunciado;
  }
 
+function mostraAlternativas(){
+    for (const alternetiva of perguntaAtual.alternativas) {
+        const botaoAlternativa = document.createElement("button");
+        botaoAlternativa.textContent = aalternativa;
+        caixaalternativas.appendChild(botaoAlternativa);
+    }
+}
+
  mostraPerguntas();
 
- 
