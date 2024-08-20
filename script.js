@@ -2,7 +2,7 @@
  const caixaperguntas = document.querySelector(".caixa-perguntas");
  const caixaalternativas = document.querySelector(".caixa-alternativas");
  const caixaresultado = document.querySelector(".caixa-resultado");
- const textoresultado = document.querySelector(".texto-resultado");
+ const textoResultado = document.querySelector(".texto-resultado");
 
  const perguntas = [
     {
@@ -56,7 +56,7 @@
         return;
     }
     perguntaAtual =perguntas[atual];
-    caixaperguntas.textContent = perguntaAtual.enunciado;
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaalternativas.textContent = "";
     mostraAlternativas();
  }
@@ -70,9 +70,14 @@ function mostraAlternativas(){
   }
   function opcaoSelecionada (){
     const afirmacoes =opcaoSelecionada.afirmacoes;
-    historiaFinal = afirmacoes;
+    historiaFinal += afirmacoes +"";
     atual++;
     mostraPerguntas();
+  }
+  function mostraResultado(){
+    caixaPerguntas.textContent = "Em resumo, você escolheu...";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent ="";
   }
 }
 mostraPerguntas();
