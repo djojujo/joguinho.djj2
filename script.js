@@ -68,17 +68,19 @@ function mostraAlternativas(){
         botaoAlternativa.addEventListener("click", () => opcaoSelecionada(alternativa));
         caixaalternativas.appendChild(botaoAlternativa);
   }
+}
   function opcaoSelecionada (alternativa){
     const afirmacoes =alternativa.afirmacoes;
     historiaFinal += afirmacoes +"";
     atual++;
     mostraPerguntas();
   }
+
   function mostraResultado(){
     caixaperguntas.textContent = "Em resumo, você escolheu...";
     textoResultado.textContent = historiaFinal;
     caixaalternativas.textContent ="";
   }
-}
+
 mostraPerguntas();
 
