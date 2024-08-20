@@ -22,11 +22,11 @@
         enunciado:" No ambito ambiental voce prefere",
         alternativas: [
             {
-            texto:"Alternativa 3",
+            texto:"Você prefere uma cidade com mais áreas verdes e parques, mas que pode ter um tráfego mais intenso.",
             afirmacao:"Afirmação 3",
             },
             {
-            texto:"Alternativa 4",
+            texto:"ou uma cidade mais limpa em termos de tráfego, mas com menos áreas naturais?",
             afirmacao:"Afirmação 4",
             },
         ]
@@ -35,11 +35,11 @@
         enunciado:" No ambito tecnológico voce prefere",
         alternativas: [
             {
-            texto:"Alternativa 5",
+            texto:"Você prefere ter um dispositivo de última geração com recursos avançados, mas com uma duração de bateria mais curta",
             afirmacao:"Afirmação 5",
             },
             {
-            texto:"Alternativa 6",
+            texto:"ou um dispositivo um pouco mais antigo com bateria que dura muito mais tempo?",
             afirmacao:"Afirmação 6",
             },
         ]
