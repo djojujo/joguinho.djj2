@@ -9,11 +9,11 @@
         enunciado:" No ambito social voce prefere",
         alternativas: [
             {
-            texto:"Alternativa 1",
+            texto:"Você prefere um sistema educacional onde todos os professores usam fantasias engraçadas para tornar as aulas mais divertidas, mas com uma carga horária dobrada para ambos.",
             afirmacao:"Afirmação 1",
             },
             {
-            texto:"Alternativa 2",
+            texto:"Ou um sistema educacional com professores sérios e rigorosos com a carga horária reduzida para ambos.",
             afirmacao:"Afirmação 2",
             },
         ]
